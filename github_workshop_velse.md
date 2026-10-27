@@ -68,64 +68,39 @@ Du kan redigere filer direkte i din browser på GitHub.
 
 ---
 
-## Del 4: Klon 
+## Del 4: Fork et eksisterende repo
 
+Når man kopiere et repository kaldes det at man laver en ```fork```. Der bliver lavet en kopi at et repository som du har fuld redigeringsrettigheder til.
 
-## Del 4: Clone dit Repository (Hent det ned på din computer)
+1. Åbn linket til workshop repository  [https://github.com/mpsteenstrup/deling_github/tree/main](https://github.com/mpsteenstrup/deling_github/tree/main).
 
-For at arbejde med filerne lokalt på din egen computer skal du *klone* dit repository.
+Fork repositoriet:
 
-### Metode A: Brug GitHub Desktop (Anbefalet til begyndere)
-1. Hent og installer [GitHub Desktop](https://desktop.github.com/), hvis du ikke har det.
-2. Log ind med din GitHub-konto i GitHub Desktop.
-3. På GitHub.com inde på dit repo: Klik på den grønne knap **`< > Code`**.
-4. Vælg **Open with GitHub Desktop**.
-5. Vælg, hvor på din computer mappen skal gemmes, og klik **Clone**.
+2. Klik på den lille knap Fork øverst til højre på siden.
+3. Vælg din egen konto som destination, og klik Create fork.
 
-### Metode B: Brug Terminal / Kommandoprompt (Git CLI)
-1. Åbn din terminal eller kommandoprompt.
-2. På GitHub.com inde på dit repo: Klik på **`< > Code`** og kopier URL'en under HTTPS (f.eks. `https://github.com/dit-brugernavn/min-foerste-workshop.git`).
-3. Kør følgende kommando i terminalen:
-   ```bash
-   git clone https://github.com/dit-brugernavn/min-foerste-workshop.git
-   ```
-4. Gå ind i mappen:
-   ```bash
-   cd min-foerste-workshop
-   ```
+Nu har du din helt egen kopi af projektet ligger under din egen GitHub-profil!
 
----
+Rediger en fil online:
 
-## Del 5: Push og Pull Requests (Samarbejde)
+4. Inde i dit nye forkede repository, klik på filen README.md.
+5. Klik på blyant-ikonet (Edit this file) i øverste højre hjørne af filvisningen.
+6. Tilføj dit navn eller en linje tekst.
+7. Gem dine ændringer (Commit):
+8. Klik på den grønne knap Commit changes... øverst til højre.
+9. Skriv en kort besked (f.eks. "Tilføjede mit navn") og klik Commit changes.
 
-Nu skal vi prøve at dele materiale og sende ændringer ind via et **Pull Request (PR)**.
+## Del 5: makkeropgave: opret, fork og pull
 
-### Øvelse A: Opret en ændring på en makkers repository
-1. Find sammen med en makker i workshoppen.
-2. Find din makkers GitHub-brugernavn og gå ind på deres repository.
-3. Åbn deres `README.md`-fil og klik på blyantsikonet (Edit).
-4. Tilføj en lille hilsen nederst i filen, f.eks.:
-   > *Hilsen fra [Dit Navn] - Tak for en god workshop!*
-5. Rul ned til **Commit changes...**.
-6. Læg mærke til, at GitHub automatisk forslår at oprette en ny *branch* og sende et **Pull Request**, fordi du ikke ejer arkivet.
-7. Klik på **Propose changes**.
-8. Klik derefter på **Create pull request**.
+I skal nu oprette et repo, så skal en anden forke det, redigere det og foreslå at ændringerne bliver implementeret i det oprindelige repo. Jeg kalder jer person A og B.
 
-### Øvelse B: Modtag og godkend et Pull Request (Merge)
-1. Gå tilbage til dit eget repository på GitHub.
-2. Klik på fanen **Pull requests** øverst.
-3. Du bør nu se et modtaget Pull Request fra din makker. Klik på det.
-4. Gå ind under fanen **Files changed** for at se, hvad din makker har ændret.
-5. Gå tilbage til **Conversation** og klik på den grønne knap **Merge pull request**, og derefter **Confirm merge**.
-6. Tillykke! Du har nu accepteret en ændring fra en anden person.
+1. A opretter et repo som ovenfor, med en fil eks README.MD.
+2. B opretter fork repo.
+3. B rediger README.MD filen i det nye repo og commit.
 
----
+For at opdatere det oprindelige repo skal I
 
-## Opsamling og Tjekliste
+4. B sender rettelser tilbage ved at trykke på ```Compare and pull requests``` og derefter trykke på ```Create pull request```.
+5. A trykker på ```pull request``` øverst og vælger den request der er. 
+6. Hvis der ikke er nogen konflikt kan de to repos ```merges``` direkte, ellers skal man forholde sig til hvilken version man foretrækker.
 
-Du har nu gennemført:
-- [x] Oprettet en GitHub-bruger.
-- [x] Oprettet dit eget repository med en README-fil.
-- [x] Redigeret en fil direkte online.
-- [x] Klonet arkivet til din egen PC.
-- [x] Sendt et Pull Request til en makker og godkendt et modtaget Pull Request.
