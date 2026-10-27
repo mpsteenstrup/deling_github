@@ -6,13 +6,25 @@
     * Ser pænt ud.
     * Behandler kode fornuftigt.
 
+* Brug med elever.
+    * Drag and drop upload.
+    * Hosting af hjemmesider.
 
+
+
+Øvelse:
 * Opret bruger.
 * Opret repository.
+
+
+
+
 * Clone repository.
 * Edit repository.
 * push/pull request.
 
+
+Øvelse:
 * Markdown editing.
     * Overskrifter, tekst.
     * Billeder.
@@ -24,7 +36,7 @@
 * Hosting af hjemmesider,
 * Escape room.
 
-* Brug med elever. 
+
 * Skrive i samme dokument.
 
 
