@@ -17,7 +17,7 @@
     * Overskrifter, tekst.
     * Billeder.
     * Links, globale og lokale.
-    
+
 
 * Github og vs code eller alternativt program.
 
@@ -26,5 +26,8 @@
 
 * Brug med elever. 
 * Skrive i samme dokument.
+
+
+tjekt gitignor
 
 
