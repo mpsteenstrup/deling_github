@@ -1,1 +1,1 @@
-Mads Peter Steenstrup
+Mads Peter H. Steenstrup
