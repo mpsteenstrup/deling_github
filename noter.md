@@ -2,7 +2,7 @@
 
 ### Man kan også lave en underoverskrift
 
-virker det nu? ja det gør.
+virker det nu? ja det gør. Så behøver man nok ikke skrive det
 
 * Hvorfor synes jeg at det er godt til undervisning?
     * Let at tilgå for elever.
